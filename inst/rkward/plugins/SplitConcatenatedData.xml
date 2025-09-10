@@ -1,0 +1,45 @@
+<!DOCTYPE rkplugin >
+<document>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<code file="SplitConcatenatedData.js" />
+	<help file="SplitConcatenatedData.rkh" />
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<logic>
+		<!--
+			<convert id="!edit!" sources="!edit!" mode="equals" standard="!edit!" />
+		-->
+		<!--
+			<connect governor="!edit!.state" client="!edit!.enabled" />
+		-->
+	</logic>
+	<dialog label="Split Concatenated Columns (cSplit)">
+		<row id="row_vDDCCSDWLO">
+			<varselector id="df_source" label="Data frames" />
+			<column id="clm_vDCCSDWLOO">
+				<varslot id="data_slot" label="Data to split (indt)" source="df_source" classes="data.frame" required="true" />
+				<varslot id="split_cols_slot" label="Columns to split (splitCols)" source="df_source" required="true" multi="true" />
+				<input label="Separator character (sep)" id="sep_input" initial="," />
+				<dropdown id="direction_dropdown" label="Direction of results">
+					<option label="Wide (new columns)" value="wide" checked="true" />
+					<option label="Long (new rows)" value="long" />
+				</dropdown>
+				<frame label="Options" id="frm_Options">
+					<checkbox id="fixed_cbox" label="Treat separator as fixed pattern (fixed=TRUE)" value="1" checked="true" />
+					<checkbox id="drop_cbox" label="Keep original column(s) (drop=FALSE)" value="1" checked="true" />
+					<checkbox id="strip_white_cbox" label="Strip whitespace around separator (stripWhite=TRUE)" value="1" checked="true" />
+					<checkbox id="type_convert_cbox" label="Attempt to convert data type (type.convert=TRUE)" value="1" checked="true" />
+				</frame>
+				<frame label="Output" id="frm_Output">
+					<saveobject label="Save result to new object" checkable="true" checked="true" initial="data.split" id="save_obj" />
+				</frame>
+				<preview label="Preview" id="prv_Preview" mode="data" />
+			</column>
+		</row>
+	</dialog>
+</document>

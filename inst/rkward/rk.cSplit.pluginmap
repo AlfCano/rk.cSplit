@@ -1,0 +1,77 @@
+<!DOCTYPE
+	rkpluginmap
+>
+<document
+	base_prefix=""
+	namespace="SplitConcatenatedData"
+	id="SplitConcatenatedData_rkward"
+	po_id="SplitConcatenatedData_rkward"
+	priority="medium"
+>
+	<!--
+		this code was generated using the rkwarddev package.
+	perhaps don't make changes here, but in the rkwarddev script instead!
+	-->
+	<!--
+		<dependencies>
+		</dependencies>
+	-->
+	<about
+		name="rk.cSplit"
+		shortinfo="An RKWard plugin to split concatenated columns into a long or wide format using the cSplit() function from the 'splitstackshape' package."
+		longinfo="An RKWard plugin to split concatenated columns into a long or wide format using the cSplit() function from the 'splitstackshape' package."
+		version="0.01-6"
+		releasedate="2025-09-10"
+		url="https://github.com/AlfCano/rk.cSplit"
+		license="GPL (&gt;= 3)"
+	>
+		<author
+			given="Alfonso"
+			family="Cano Robles"
+			email="alfonso.cano@correo.buap.mx"
+			role="aut, cre"
+		/>
+	</about>
+	<require
+		map="rkward::menu"
+	/>
+	<require
+		map="rkward::embedded"
+	/>
+	<components>
+		<component
+			id="cmp_SpltCnctntdDtSpltCnctntdD"
+			label="Split Concatenated Data"
+			type="standard"
+			file="plugins/SplitConcatenatedData.xml"
+		>
+		</component>
+	</components>
+	<hierarchy>
+		<menu
+			id="data"
+			label="Data"
+		>
+			<menu
+				id="SplitDatacSplit"
+				label="Split Data (cSplit)"
+			>
+				<entry
+					component="cmp_SpltCnctntdDtSpltCnctntdD"
+				/>
+			</menu>
+		</menu>
+	</hierarchy>
+	<!--
+		<context
+			id="x11"
+		>
+		</context>
+	-->
+	<!--
+		<context
+			id="import"
+		>
+		</context>
+	-->
+</document>
