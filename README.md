@@ -34,7 +34,16 @@ You can install this plugin directly from its repository using the `devtools` pa
 # install.packages("devtools")
 
 # Replace 'YourGitHubUsername' with the actual user/organization
-devtools::install_github("YourGitHubUsername/rk.cSplit")
+local({
+## Preparar
+require(devtools)
+## Computar
+  install_github(
+    repo="AlfCano/rk.cSplit"
+  )
+## Imprimir el resultado
+rk.header ("Resultados de Instalar desde git")
+})
 ```
 
 ### Manual Installation
