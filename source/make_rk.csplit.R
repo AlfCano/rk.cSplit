@@ -28,7 +28,7 @@ package_about <- rk.XML.about(
     ),
     about = list(
       desc = "An RKWard plugin to split concatenated columns into a long or wide format using the cSplit() function from the 'splitstackshape' package.",
-      version = "0.01-6", # Final version
+      version = "0.01-7",
       date = format(Sys.Date(), "%Y-%m-%d"),
       url = "https://github.com/AlfCano/rk.cSplit",
       license = "GPL (>= 3)"
@@ -134,7 +134,7 @@ js_cSplit_calculate <- '
     }
 
     // For the main run, save to the object name defined in the saveobj component
-    echo(getValue("save_obj.objectname") + " <- splitstackshape::cSplit(" + options.join(", ") + ")\\n");
+    echo("data.split <- splitstackshape::cSplit(" + options.join(", ") + ")\\n");
 '
 
 js_cSplit_preview <- '

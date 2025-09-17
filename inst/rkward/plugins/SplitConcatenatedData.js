@@ -111,7 +111,7 @@ function calculate(is_preview){
     }
 
     // For the main run, save to the object name defined in the saveobj component
-    echo(getValue("save_obj.objectname") + " <- splitstackshape::cSplit(" + options.join(", ") + ")\n");
+    echo("data.split <- splitstackshape::cSplit(" + options.join(", ") + ")\n");
 
 }
 
