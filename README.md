@@ -1,5 +1,10 @@
 # RKWard Plugin: Split Concatenated Data (`rk.cSplit`)
 
+![Version](https://img.shields.io/badge/Version-0.01-8-blue.svg)
+![License](https://img.shields.io/badge/License-GPL--3-green.svg)
+![R Version](https://img.shields.io/badge/R-%3E%3D%203.0.0-lightgrey.svg)
+
+
 > An RKWard plugin to split concatenated columns into a long or wide format using the `cSplit()` function from the `splitstackshape` package.
 
 ## Overview
