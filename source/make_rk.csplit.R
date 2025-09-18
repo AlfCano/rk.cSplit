@@ -28,7 +28,7 @@ package_about <- rk.XML.about(
     ),
     about = list(
       desc = "An RKWard plugin to split concatenated columns into a long or wide format using the cSplit() function from the 'splitstackshape' package.",
-      version = "0.01-7",
+      version = "0.01-8",
       date = format(Sys.Date(), "%Y-%m-%d"),
       url = "https://github.com/AlfCano/rk.cSplit",
       license = "GPL (>= 3)"
@@ -123,7 +123,7 @@ js_cSplit_calculate <- '
     if(is_fixed != "1" && is_fixed != 1 && is_fixed != true){
         options.push("fixed = FALSE");
     }
-    if(should_keep == "1" || should_keep == 1 || should_keep != true){
+    if(should_keep == "1" || should_keep == 1 || should_keep == true){
         options.push("drop = FALSE");
     }
     if(strip_white != "1" && strip_white != 1 && strip_white != true){

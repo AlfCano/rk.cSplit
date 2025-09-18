@@ -100,7 +100,7 @@ function calculate(is_preview){
     if(is_fixed != "1" && is_fixed != 1 && is_fixed != true){
         options.push("fixed = FALSE");
     }
-    if(should_keep == "1" || should_keep == 1 || should_keep != true){
+    if(should_keep == "1" || should_keep == 1 || should_keep == true){
         options.push("drop = FALSE");
     }
     if(strip_white != "1" && strip_white != 1 && strip_white != true){

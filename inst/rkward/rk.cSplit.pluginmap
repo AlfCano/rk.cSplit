@@ -20,8 +20,8 @@
 		name="rk.cSplit"
 		shortinfo="An RKWard plugin to split concatenated columns into a long or wide format using the cSplit() function from the 'splitstackshape' package."
 		longinfo="An RKWard plugin to split concatenated columns into a long or wide format using the cSplit() function from the 'splitstackshape' package."
-		version="0.01-7"
-		releasedate="2025-09-16"
+		version="0.01-8"
+		releasedate="2025-09-18"
 		url="https://github.com/AlfCano/rk.cSplit"
 		license="GPL (&gt;= 3)"
 	>
