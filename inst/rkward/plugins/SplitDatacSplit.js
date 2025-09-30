@@ -121,7 +121,7 @@ function printout(is_preview){
 
 	// printout the results
 	if(!is_preview) {
-		new Header(i18n("Split Concatenated Data results")).print();	
+		new Header(i18n("Split Data (cSplit) results")).print();	
 	}
     // The actual saving is done in the calculate block for the final run.
     // We only need to print a confirmation message if the save box was checked.

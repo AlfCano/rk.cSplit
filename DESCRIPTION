@@ -3,8 +3,8 @@ Type: Package
 Title: An RKWard plugin to split concatenated columns into a long or
         wide format using the cSplit() function from the
         'splitstackshape' package.
-Version: 0.01-8
-Date: 2025-09-18
+Version: 0.01.9
+Date: 2025-09-29
 Author: Alfonso Cano Robles
 Maintainer: Alfonso Cano Robles <alfonso.cano@correo.buap.mx>
 Enhances: rkward

@@ -4,8 +4,8 @@
 		this code was generated using the rkwarddev package.
 	perhaps don't make changes here, but in the rkwarddev script instead!
 	-->
-	<code file="SplitConcatenatedData.js" />
-	<help file="SplitConcatenatedData.rkh" />
+	<code file="SplitDatacSplit.js" />
+	<help file="SplitDatacSplit.rkh" />
 	<!--
 		<dependencies>
 		</dependencies>

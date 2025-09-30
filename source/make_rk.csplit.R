@@ -28,7 +28,7 @@ package_about <- rk.XML.about(
     ),
     about = list(
       desc = "An RKWard plugin to split concatenated columns into a long or wide format using the cSplit() function from the 'splitstackshape' package.",
-      version = "0.01-8",
+      version = "0.01.9",
       date = format(Sys.Date(), "%Y-%m-%d"),
       url = "https://github.com/AlfCano/rk.cSplit",
       license = "GPL (>= 3)"
@@ -209,7 +209,7 @@ plugin.dir <- rk.plugin.skeleton(
     rkh = list(help = cSplit_help),
     pluginmap = list(
         name = "Split Concatenated Data",
-        hierarchy = list("data", "Split Data (cSplit)")
+        hierarchy = list("data")
     ),
     create = c("pmap", "xml", "js", "desc", "rkh"),
     overwrite = TRUE,

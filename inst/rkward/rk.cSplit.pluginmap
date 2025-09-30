@@ -3,9 +3,9 @@
 >
 <document
 	base_prefix=""
-	namespace="SplitConcatenatedData"
-	id="SplitConcatenatedData_rkward"
-	po_id="SplitConcatenatedData_rkward"
+	namespace="SplitDatacSplit"
+	id="SplitDatacSplit_rkward"
+	po_id="SplitDatacSplit_rkward"
 	priority="medium"
 >
 	<!--
@@ -20,8 +20,8 @@
 		name="rk.cSplit"
 		shortinfo="An RKWard plugin to split concatenated columns into a long or wide format using the cSplit() function from the 'splitstackshape' package."
 		longinfo="An RKWard plugin to split concatenated columns into a long or wide format using the cSplit() function from the 'splitstackshape' package."
-		version="0.01-8"
-		releasedate="2025-09-18"
+		version="0.01.9"
+		releasedate="2025-09-29"
 		url="https://github.com/AlfCano/rk.cSplit"
 		license="GPL (&gt;= 3)"
 	>
@@ -40,10 +40,10 @@
 	/>
 	<components>
 		<component
-			id="cmp_SpltCnctntdDtSpltCnctntdD"
-			label="Split Concatenated Data"
+			id="cmp_SplitDatacSpltSpltDtcSplt"
+			label="Split Data (cSplit)"
 			type="standard"
-			file="plugins/SplitConcatenatedData.xml"
+			file="plugins/SplitDatacSplit.xml"
 		>
 		</component>
 	</components>
@@ -52,14 +52,9 @@
 			id="data"
 			label="Data"
 		>
-			<menu
-				id="SplitDatacSplit"
-				label="Split Data (cSplit)"
-			>
-				<entry
-					component="cmp_SpltCnctntdDtSpltCnctntdD"
-				/>
-			</menu>
+			<entry
+				component="cmp_SplitDatacSpltSpltDtcSplt"
+			/>
 		</menu>
 	</hierarchy>
 	<!--
