@@ -208,7 +208,7 @@ plugin.dir <- rk.plugin.skeleton(
     ),
     rkh = list(help = cSplit_help),
     pluginmap = list(
-        name = "Split Concatenated Data",
+        name = "Split Data (cSplit)",
         hierarchy = list("data")
     ),
     create = c("pmap", "xml", "js", "desc", "rkh"),
