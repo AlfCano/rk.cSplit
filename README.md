@@ -3,6 +3,7 @@
 ![Version](https://img.shields.io/badge/Version-0.01.9-blue.svg)
 ![License](https://img.shields.io/badge/License-GPL--3-green.svg)
 ![R Version](https://img.shields.io/badge/R-%3E%3D%203.0.0-lightgrey.svg)
+[![R Linter](https://github.com/AlfCano/rk.cSplit/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.cSplit/actions/workflows/lintr.yml)
 
 
 > An RKWard plugin to split concatenated columns into a long or wide format using the `cSplit()` function from the `splitstackshape` package.
@@ -75,3 +76,8 @@ rk.header ("Resultados de Instalar desde git")
 ## License
 
 This plugin is licensed under the GPL (>= 3).
+
+## Author
+
+* Alfonso Cano (alfonso.cano@correo.buap.mx)  
+* Assisted by Gemini, a large language model from Google.
