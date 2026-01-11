@@ -1,10 +1,9 @@
 # RKWard Plugin: Split Concatenated Data (`rk.cSplit`)
 
-![Version](https://img.shields.io/badge/Version-0.01.9-blue.svg)
+![Version](https://img.shields.io/badge/Version-0.01.10-blue.svg)
 ![License](https://img.shields.io/badge/License-GPL--3-green.svg)
 ![R Version](https://img.shields.io/badge/R-%3E%3D%203.0.0-lightgrey.svg)
 [![R Linter](https://github.com/AlfCano/rk.cSplit/actions/workflows/lintr.yml/badge.svg)](https://github.com/AlfCano/rk.cSplit/actions/workflows/lintr.yml)
-
 
 > An RKWard plugin to split concatenated columns into a long or wide format using the `cSplit()` function from the `splitstackshape` package.
 
@@ -28,7 +27,15 @@ This is a common data cleaning and reshaping task, required when a single column
     -   Automatically strip whitespace from around the separator.
     -   Attempt to convert the new columns to the most appropriate data type (e.g., numeric, integer).
 -   A **live data preview** shows you exactly what the output will look like before you run the final command.
--   Save the final, reshaped data frame to a new R object, with the save option enabled by default.
+-   Save the final, reshaped data frame to a new R object.
+
+### Internationalization
+The interface is fully localized in:
+*   🇺🇸 English (Default)
+*   🇪🇸 Spanish (`es`)
+*   🇫🇷 French (`fr`)
+*   🇩🇪 German (`de`)
+*   🇧🇷 Portuguese (Brazil) (`pt_BR`)
 
 ## Installation
 
@@ -39,23 +46,16 @@ You can install this plugin directly from its repository using the `devtools` pa
 # If you don't have devtools installed:
 # install.packages("devtools")
 
-# Replace 'YourGitHubUsername' with the actual user/organization
 local({
-## Preparar
-require(devtools)
-## Computar
-  install_github(
-    repo="AlfCano/rk.cSplit"
-  )
-## Imprimir el resultado
-rk.header ("Resultados de Instalar desde git")
+  require(devtools)
+  install_github("AlfCano/rk.cSplit", force = TRUE)
 })
 ```
 
 ### Manual Installation
 1.  Download this repository as a `.zip` file.
 2.  In RKWard, go to **Settings -> R Packages -> Install package(s) from local zip file(s)** and select the downloaded file.
-3.  Restart RKWard. The plugin will be available in the `Data` menu.
+3.  **Restart RKWard**. The plugin will be available in the `Data` menu.
 
 ## Usage
 

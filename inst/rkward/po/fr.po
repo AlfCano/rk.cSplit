@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rk.cSplit 0.01.10\n"
+"Report-Msgid-Bugs-To: https://mail.kde.org/mailman/listinfo/kde-i18n-doc\n"
+"POT-Creation-Date: 2026-01-11 12:00+0000\n"
+"PO-Revision-Date: 2026-01-11 12:00+0000\n"
+"Last-Translator: Your Name <your.email@example.com>\n"
+"Language-Team: French <kde-francophone@kde.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0\n"
+
+msgid "An RKWard plugin to split concatenated columns into a long or wide format using the cSplit() function from the 'splitstackshape' package."
+msgstr "Un plugin RKWard pour diviser des colonnes concaténées en format long ou large à l'aide de la fonction cSplit() du package 'splitstackshape'."
+
+msgid "Split Data (cSplit)"
+msgstr "Diviser les données (cSplit)"
+
+msgid "Split Concatenated Columns (cSplit)"
+msgstr "Diviser les colonnes concaténées (cSplit)"
+
+msgid "Data frames"
+msgstr "Data frames"
+
+msgid "Data to split (indt)"
+msgstr "Données à diviser (indt)"
+
+msgid "Columns to split (splitCols)"
+msgstr "Colonnes à diviser (splitCols)"
+
+msgid "Separator character (sep)"
+msgstr "Caractère séparateur (sep)"
+
+msgid "Direction of results"
+msgstr "Direction des résultats"
+
+msgid "Wide (new columns)"
+msgstr "Large (nouvelles colonnes)"
+
+msgid "Long (new rows)"
+msgstr "Long (nouvelles lignes)"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Treat separator as fixed pattern (fixed=TRUE)"
+msgstr "Traiter le séparateur comme un motif fixe (fixed=TRUE)"
+
+msgid "Keep original column(s) (drop=FALSE)"
+msgstr "Conserver la/les colonne(s) d'origine (drop=FALSE)"
+
+msgid "Strip whitespace around separator (stripWhite=TRUE)"
+msgstr "Supprimer les espaces autour du séparateur (stripWhite=TRUE)"
+
+msgid "Attempt to convert data type (type.convert=TRUE)"
+msgstr "Tenter de convertir le type de données (type.convert=TRUE)"
+
+msgid "Output"
+msgstr "Sortie"
+
+msgid "Save result to new object"
+msgstr "Enregistrer le résultat dans un nouvel objet"
+
+msgid "cSplit results saved to object."
+msgstr "Résultats cSplit enregistrés dans l'objet."
+
+msgid "cSplit"
+msgstr "cSplit"
+
+msgid "Splits one or more columns containing concatenated data into either a wide format (new columns) or a long format (new rows)."
+msgstr "Divise une ou plusieurs colonnes contenant des données concaténées en format large (nouvelles colonnes) ou long (nouvelles lignes)."
+
+msgid "Select a data frame and the column(s) to split. Specify the separator character and the desired output format. The result is saved to an R object in the workspace."
+msgstr "Sélectionnez un data frame et la/les colonne(s) à diviser. Spécifiez le caractère séparateur et le format de sortie souhaité. Le résultat est enregistré dans un objet R dans l'espace de travail."
+
+msgid "<p><b>Columns to split:</b> Select one or more columns that contain the delimited data.</p><p><b>Separator character:</b> The character or string that separates the values within the cells (e.g., ',', ';', '|').</p><p><b>Direction:</b> Choose 'wide' to create new columns for the split values, or 'long' to create new rows for each value.</p>"
+msgstr "<p><b>Colonnes à diviser :</b> Sélectionnez une ou plusieurs colonnes contenant les données délimitées.</p><p><b>Caractère séparateur :</b> Le caractère ou la chaîne qui sépare les valeurs dans les cellules (par exemple, ',', ';', '|').</p><p><b>Direction :</b> Choisissez 'wide' (large) pour créer de nouvelles colonnes pour les valeurs divisées, ou 'long' pour créer de nouvelles lignes pour chaque valeur.</p>"
