@@ -81,3 +81,17 @@ This plugin is licensed under the GPL (>= 3).
 
 * Alfonso Cano (alfonso.cano@correo.buap.mx)  
 * Assisted by Gemini, a large language model from Google.
+
+#### Troubleshooting: Errors installing `devtools` or missing binary dependencies
+
+If you encounter errors mentioning "non-zero exit status", "namespace is already loaded", or requirements for compilation (compiling from source) when installing packages, it is likely because the R version bundled with RKWard is older than the current CRAN standard.
+
+**Workaround:**
+Until a new, more recent version of R (current bundled version is 4.3.3) is packaged into the RKWard executable, these issues will persist. To fix this:
+
+1.  Download and install the latest version of R (e.g., 4.5.2 or newer) from [CRAN](https://cloud.r-project.org/).
+2.  Open RKWard and go to the **Settings** (or Preferences) menu.
+3.  Run the **"Installation Checker"**.
+4.  Point RKWard to the newly installed R version.
+
+This "two-step" setup (similar to how RStudio operates) ensures you have access to the latest pre-compiled binaries, avoiding the need for RTools and manual compilation.
