@@ -82,7 +82,7 @@ This plugin is licensed under the GPL (>= 3).
 * Alfonso Cano (alfonso.cano@correo.buap.mx)  
 * Assisted by Gemini, a large language model from Google.
 
-#### Troubleshooting: Errors installing `devtools` or missing binary dependencies
+#### Troubleshooting: Errors installing `devtools` or missing binary dependencies (Windows)
 
 If you encounter errors mentioning "non-zero exit status", "namespace is already loaded", or requirements for compilation (compiling from source) when installing packages, it is likely because the R version bundled with RKWard is older than the current CRAN standard.
 
